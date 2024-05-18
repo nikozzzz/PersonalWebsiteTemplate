@@ -13,6 +13,7 @@ body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: Arial, sans-serif; /* Add this line */
     /* flex-direction: column; */
   }
 
@@ -37,6 +38,7 @@ body{
     text-align: center;
     cursor: pointer;
     transition: background-color 0.3s ease; /* Adding a smooth transition effect on hover */
+    font-family: Arial, sans-serif; /* Add this line */
 }
 
 /* Hover effect on buttons */
@@ -83,21 +85,24 @@ body{
 }
 
 .card h1{
-    font-size: 24px;
+    font-size: 27px;
     font-weight: 400;
     margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif; /* Add this line */
 }
 
 .card h2{
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 200;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 25px;
 }
 
 .card p{
-    font-size: 14px;
-    font-weight: 200;
-    margin-bottom: 25px;
+    font-size: 17px;
+    font-weight: 100;
+    margin-bottom: 30px;
+    font-family:  'Times New Roman', Times, serif; /* Add this line */
 }
 
 .return {

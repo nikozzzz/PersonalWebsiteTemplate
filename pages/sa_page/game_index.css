@@ -9,7 +9,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('../../dict/images/gm_cover.jpg');
+    background-image: url('../../dict/images/sa_cover.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -57,9 +57,9 @@ body{
     margin: 20px 20px 50px 20px;
 }
 
-.right_present_professional,
+.right_present_certification,
 .right_present_research,
-.right_present_inschool {
+.right_present_experiences {
     position: absolute;
     top: 30px;
     left: 50px;
@@ -83,19 +83,19 @@ body{
 }
 
 .card h1{
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 400;
     margin-top: 10px;
 }
 
 .card h2{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 200;
     margin-bottom: 20px;
 }
 
 .card p{
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 200;
     margin-bottom: 25px;
 }

@@ -139,3 +139,9 @@ a:link {
 a:visited{
     color: #fff;
 }
+
+.mall_video{
+    position: relative;
+    margin-left: 200px;
+    margin-right: 200px;
+}

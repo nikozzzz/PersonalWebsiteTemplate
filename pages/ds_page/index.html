@@ -12,6 +12,9 @@
     <body>
         <!-- Content on the left, 4 MAXIMUM-->
         <div class="left_container">
+            <div class="btn inschool" onclick="showContent('internship')">
+                <h3>Internship</h3>
+            </div>
             <div class="btn competition" onclick="showContent('competition')">
                 <h3>Competition</h3>
             </div>
@@ -20,11 +23,34 @@
             </div>
             <div class="btn inschool" onclick="showContent('inschool')">
                 <h3>Skills</h3>
-            </div>
+            </div>  
+
 
         
         </div>   
         <div class="right_container">
+            <!-- Detailed information of the first category -->
+            <div class="right_present_internship content">
+                <div class="card">
+                    <h1>Baidu Online Network Technology (Beijing) Co., Ltd.
+                        Natural Language Processing Algorithm R&D Intern</h1>
+                    <h2>September 2024</h2>
+                    <p>
+                        Health Assistant Project: Developed a multi-intent recognition and classification system for online medical scenarios using large pre-trained models and multi-turn rewriting mechanisms. Achieved a 93% accuracy in extracting patient demands, improving adaptability and consultation efficiency.
+                    </p>
+                    <p>
+                    Science Popularization Assistant RAG: Integrated authoritative medical content, books, and academic papers to optimize recall and relevance, providing accurate health information. Packaged as an agent to support scenarios like virtual consultations, science popularization, and a voice-adapted assistant for elderly users.
+                </p>
+                </div>                                                                                                                                  
+                <hr /> <!-- Horizontal line separator -->
+                <div class="card">
+                    <h1>George Washington University Statistics Department Summer Exchange Program</h1>
+                    <h2>July 2024</h2>
+                    <p>
+                        Participated in a three-month summer exchange program at the Department of Statistics, Columbian College of Arts and Sciences, George Washington University. During this program, I engaged in academic coursework, collaborated with professors on research projects, and immersed myself in American culture, broadening my international perspective and enhancing my expertise in statistics and cross-cultural communication skills.
+                    </p>
+                </div>
+            </div>
             <!-- Detailed information of the first category -->
             <div class="right_present_competition content">
                 <div class="card">
@@ -114,7 +140,7 @@
             </div>
             <script>
                 // Initialize with 'Professional' content displayed
-                showContent('competition');
+                showContent('internship');
             </script>
         </body>
     </html>

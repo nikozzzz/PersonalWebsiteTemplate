@@ -15,6 +15,7 @@ function showContent(section) {
     // Highlight the clicked button
     document.querySelector(`.btn.${section}`).classList.add('active');
 }
+
 // Initialize with 'Professional' content displaye
-showContent('competition');
+showContent('internship');
 
